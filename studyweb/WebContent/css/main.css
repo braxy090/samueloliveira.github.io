@@ -1421,16 +1421,20 @@ h2.title {
 
 #form {
     display: block;
-    margin-bottom: 185px;
-    margin-top: 185px;
+    margin-bottom: 100px;
+    margin-top: 100px;
     overflow: hidden;
+    align-self: center;
 }
 
-.login-form {}
+.login-form01 {
+	margin: auto 30%;
+	
+}
 
 .signup-form {}
 
-.login-form h2,
+.login-form h2,.login-form01 h2,
 .signup-form h2 {
     color: #696763;
     font-family: 'Roboto', sans-serif;
@@ -1439,7 +1443,7 @@ h2.title {
     margin-bottom: 30px;
 }
 
-.login-form form input,
+.login-form form input,.login-form01 form input,
 .signup-form form input {
     background: #F0F0E9;
     border: medium none;
@@ -1455,22 +1459,22 @@ h2.title {
     width: 100%;
 }
 
-.login-form form span {
+.login-form form span,.login-form01 form span {
     line-height: 25px;
 }
 
-.login-form form span input {
+.login-form form span input,.login-form01 form span input {
     width: 15px;
     float: left;
     height: 15px;
     margin-right: 5px;
 }
 
-.login-form form button {
+.login-form form button,.login-form01 form button {
     margin-top: 23px;
 }
 
-.login-form form button,
+.login-form form button,.login-form01 form button,
 .signup-form form button {
     background: #FE980F;
     border: medium none;
@@ -1483,7 +1487,7 @@ h2.title {
 
 .login-form label {}
 
-.login-form label input {
+.login-form label input,.login-form01 label input  {
     border: medium none;
     display: inline-block;
     height: 0;
@@ -2441,9 +2445,14 @@ textarea {
     background: none;
 }
 
-.contact-info .social-networks ul li a:hover {
+.contact-info .social-networks ul li a:hover{ 
     color: #FE980F;
 }
 #mapa{
 	margin-bottom: 40px;
 }
+/***********************
+****adicionaProduto*****
+***********************/
+
+
